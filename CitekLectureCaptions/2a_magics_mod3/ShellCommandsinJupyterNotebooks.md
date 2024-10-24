@@ -18,7 +18,7 @@ Here's a summarized note combining the key points about using shell commands in 
    - Assign shell output to Python variables: `contents = !ls`
    - Use `{varname}` to pass Python variables to shell: `!echo {message}`
 
-4. Shell return type:
+4. Shell return type: shell commands
 
    - Results are returned as `IPython.utils.text.SList`
    - Has additional methods like `grep` and `fields`
